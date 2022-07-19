@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>loveyou.e0d82c70-fe03-11ec-9537-aed56492922d.jpg</filename>
+	<path>F:\Suppi\Jupyter\Python on Jupyter\MinProj\OurMinProj\new_template repo\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\loveyou.e0d82c70-fe03-11ec-9537-aed56492922d.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Enjoy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>166</xmin>
+			<ymin>113</ymin>
+			<xmax>364</xmax>
+			<ymax>365</ymax>
+		</bndbox>
+	</object>
+</annotation>
