@@ -3,18 +3,18 @@ item {
 	id:1
 }
 item { 
-	name:'Thanks'
+	name:'Enjoy'
 	id:2
 }
 item { 
-	name:'Yes'
+	name:'No'
 	id:3
 }
 item { 
-	name:'No'
+	name:'Thank You'
 	id:4
 }
 item { 
-	name:'Enjoy'
+	name:'Yes'
 	id:5
 }
