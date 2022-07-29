@@ -9,5 +9,32 @@
 ### Procedure (Windows):- 
      
  * First we install all the dependencies regarding the project onto a virtual env "tensorflow" by    
-   running this on cmd 
+   running this on cmd by (assuming anaconda is already installed on your machine)
+   ```
+   conda create -n tensorflow pip python=3.9
+   ```
+   ```
+   conda activate tensorflow
+   ```
+ * Once you have activated your virtual environment, 
+   the name of the environment should be displayed within brackets at the beggining of your cmd path specifier, e.g.:  
+   ```
+   (tensorflow) F:\Suppi\My_Project>
+   ```
+ * Install the Tensorflow pip package by 
+   ```
+   pip install --ignore-installed --upgrade tensorflow==2.9.0
+   ```
+ > Note: We need to install Protobuf and Protoc before proceeding with installing other dependencies 
+ 
+### * All the Available Info are Provide in the    
+      [TensorFlow 2 Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
+      
+ * After following through the above processes, just clone this repo and execute [Tutorial.ipynb](https://github.com/SinisterSup/TensorFlow-object-detection-_-MiniProj/blob/main/Tutorial.ipynb)
+ 
+ * The required checkpoints are already trained and stored in [Tensorflow/workspace/models/my_ssd_mobnet/](https://github.com/SinisterSup/TensorFlow-object-detection-_-MiniProj/tree/main/Tensorflow/workspace/models/my_ssd_mobnet)
+ 
+ 
+           # Thank You
+   
    
