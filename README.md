@@ -34,6 +34,6 @@
  * The required checkpoints are already trained and stored in [Tensorflow/workspace/models/my_ssd_mobnet/](https://github.com/SinisterSup/TensorFlow-object-detection-_-MiniProj/tree/main/Tensorflow/workspace/models/my_ssd_mobnet)
  
  
-           # Thank You
+      # Thank You
    
    
