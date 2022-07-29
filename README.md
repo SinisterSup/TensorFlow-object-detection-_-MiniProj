@@ -27,8 +27,7 @@
    ```
  > Note: We need to install Protobuf and Protoc before proceeding with installing other dependencies 
  
-### * All the Available Info are Provide in the    
-      [TensorFlow 2 Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
+### * All the Available Info are provided in here [TensorFlow 2 Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
       
  * After following through the above processes, just clone this repo and execute [Tutorial.ipynb](https://github.com/SinisterSup/TensorFlow-object-detection-_-MiniProj/blob/main/Tutorial.ipynb)
  
