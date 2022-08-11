@@ -34,6 +34,9 @@
  * The required checkpoints are already trained and stored in [Tensorflow/workspace/models/my_ssd_mobnet/](https://github.com/SinisterSup/TensorFlow-object-detection-_-MiniProj/tree/main/Tensorflow/workspace/models/my_ssd_mobnet)
  
  
-      # Thank You
+> ## If you want to build the CNN model yourself try executing [Proj.ipynb](https://github.com/SinisterSup/TensorFlow-object-detection-_-MiniProj/blob/main/Proj.ipynb) under the same conda environment (tensorflow) 
+ 
+ 
+   # Thank You
    
    
