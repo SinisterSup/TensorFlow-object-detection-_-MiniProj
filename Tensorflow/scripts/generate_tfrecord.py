@@ -102,12 +102,15 @@ def class_text_to_int(row_label):
 
 
 def split(df, group):
+    '''Creating array of namedtuples for each group objects'''
     data = namedtuple('data', ['filename', 'object'])
     gb = df.groupby(group)
     return [data(filename, gb.get_group(x)) for filename, x in zip(gb.groups.keys(), gb.groups)]
 
 
 def create_tf_example(group, path):
+    '''To create tf vector examples'''
+    
     with tf.gfile.GFile(os.path.join(path, '{}'.format(group.filename)), 'rb') as fid:
         encoded_jpg = fid.read()
     encoded_jpg_io = io.BytesIO(encoded_jpg)
@@ -149,7 +152,7 @@ def create_tf_example(group, path):
 
 
 def main(_):
-
+    '''Main function'''
     writer = tf.python_io.TFRecordWriter(args.output_path)
     path = os.path.join(args.image_dir)
     examples = xml_to_csv(args.xml_dir)
