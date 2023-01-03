@@ -98,18 +98,19 @@ def xml_to_csv(path):
 
 
 def class_text_to_int(row_label):
+    '''Converts text to integer based on the Label_map dictionary'''
     return label_map_dict[row_label]
 
 
 def split(df, group):
-    '''Creating array of namedtuples for each group objects'''
+    '''Creating array of named tuples for each group objects'''
     data = namedtuple('data', ['filename', 'object'])
     gb = df.groupby(group)
     return [data(filename, gb.get_group(x)) for filename, x in zip(gb.groups.keys(), gb.groups)]
 
 
 def create_tf_example(group, path):
-    '''To create tf vector examples'''
+    '''creates tf vector examples'''
     
     with tf.gfile.GFile(os.path.join(path, '{}'.format(group.filename)), 'rb') as fid:
         encoded_jpg = fid.read()
